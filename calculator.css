@@ -1,0 +1,45 @@
+.neon-text{
+    color: rgb(250, 5, 181);
+    text-shadow: 0 0 10px #f019be,0 0 20px #550442;;
+
+
+}
+.background{
+    position: fixed;
+    object-fit: cover;
+    object-position: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(100%);
+}
+
+
+.calculator {
+    width: 300px;
+    margin-top: 200vh;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(46, 47, 47, 50%);
+    justify-content: center;
+  
+}
+.calculator input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: right;
+}
+.calculator .btn {
+    width: 23%;
+    margin: 2px;
+}
+.calculator .btn-wide {
+    width: 48%;
+}
+
